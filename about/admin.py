@@ -10,7 +10,7 @@ class AboutAdmin(SummernoteModelAdmin):
     Adds rich-text editing of content in admin
     """
 
-    summernote_fields = ('content',)
+summernote_fields = ('content',)
 
 # Note: admin.ModelAdmin is the standard way of registering
 #       our model with the admin panel. We do it differently
